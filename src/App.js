@@ -12,9 +12,9 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/watchlist" element={<Watchlist />} />
+          <Route path="/" element={<Watchlist />} />
           <Route path="/watched" element={<Watched />} />
-          <Route path="/" element={<Add />} />
+          <Route path="/add" element={<Add />} />
         </Routes>
       </Router>
     </GlobalProvider>
